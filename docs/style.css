@@ -534,7 +534,7 @@ textarea {
 }
 .info-footer p {
   margin: 5px 0;
-  color: var(--color-nav);
+  color: var(--color-body);
 }
 
 .ul-icon-footer {
