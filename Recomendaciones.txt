@@ -9,7 +9,7 @@
 9.- Hacer que el menu amburgesa radie ondas
 10.- Que el menu salga completo con todo y nav al dar click al menu hamburgesa
 11.- Poner en metodo POST por JavaScript el envio del formulario
-12.- Cambiarle el color a la leyenda del fotter "inter developer" Color body-color
+12.- Cambiarle el color a la leyenda del fotter "inter developer" Color body-color \\ TERMINADO
 13.- Hcer un Portfolio2 que tenga todo en un solo HTML.
 14.- Poner un archivo referenciado en el boton de "aboutme" que hable sobre de mi.
 15.- Cambiar le tamaño y el siseño del boton de enviar el el formulario de contacto.
