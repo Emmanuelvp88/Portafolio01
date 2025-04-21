@@ -532,9 +532,12 @@ textarea {
   text-align: center;
   background: var(--color-bottom);
 }
+.info-footer h3{
+  color: var(--color-body)
+}
 .info-footer p {
-  margin: 5px 0;
-  color: var(--color-nav);
+  margin: 10px;
+  color: var(--color-body);
 }
 
 .ul-icon-footer {
@@ -544,6 +547,7 @@ textarea {
   justify-self: center;
   font-size: 30px;
   color: var(--color-body);
+  margin: 20px;
 }
 
 .ul-icon-footer li:hover i {
