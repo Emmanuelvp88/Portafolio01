@@ -768,6 +768,9 @@ textarea {
   .info-footer h3 {
     font-size: 1.7em;
   }
+  .ul-icon-footer{
+    margin: 0 0;
+  }
   .registrado {
     justify-self: center;
     font-size: 13px;
