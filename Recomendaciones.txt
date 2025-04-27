@@ -20,3 +20,4 @@ quede seleccionada con el color para que sepan en qeu seccion se encuentran.
 19.- Cambiar titulos de puestos en "work Experince" y quitar la descipcion de cada trabajo.
 20.- Poner en "Work Experince" un link en cada imagen de trabajo que los enlace ya sea a la pagina.
 oficial del trabajo o aun apartado de la descripcion de lo que yo realizaba en ese trabajo.
+21.- Separar la Hoja de estilos CSS en varias secciones, espesificando cada sección, principalmente separar el código que corresponde a responsive desing.
