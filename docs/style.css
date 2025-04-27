@@ -60,6 +60,7 @@ b {
 span {
   color: var(--color-bottom);
 }
+
 /* End Config General */
 
 /* Start Header > NAV */
@@ -80,7 +81,7 @@ header {
   height: 90px;
 }
 
-.nav-bar > .abajo {
+.nav-bar>.abajo {
   background-color: var(--color-nav);
   transition: 0.5s;
   box-shadow: 0px 2px 8px #000e;
@@ -142,17 +143,16 @@ header {
   transform: translateY(-2px);
   transition-duration: 0.3s;
 }
+
 /* End Header Nav */
 
 /* Start Hero Home */
 #hero {
   height: 100vh;
   width: 100%;
-  background-image: linear-gradient(
-      to top,
+  background-image: linear-gradient(to top,
       rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.3)
-    ),
+      rgba(0, 0, 0, 0.3)),
     url("media/lenguaje-programacion.jpg");
   background-size: cover;
   background-position: center;
@@ -246,6 +246,7 @@ header {
 .info-h3:nth-child(4) {
   animation-delay: 2.3s;
 }
+
 /* End Keyframe Animaciones */
 
 .hero-photo {
@@ -282,6 +283,7 @@ header {
 .download:active {
   transform: translateY(2px);
 }
+
 /* End Hero Home */
 
 /* Start AboutMe */
@@ -342,20 +344,19 @@ p {
   margin-bottom: 2em;
 }
 
-.info-about > .divider {
+.info-about>.divider {
   display: inline-block;
 }
+
 /* End AboutMe */
 
 /* Start Skills */
 #skills {
   height: 100vh;
   padding-top: 3em;
-  background-image: linear-gradient(
-      to top,
+  background-image: linear-gradient(to top,
       rgba(4, 4, 4, 0.6),
-      rgba(4, 4, 4, 0.6)
-    ),
+      rgba(4, 4, 4, 0.6)),
     url("media/full-stack.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -388,6 +389,7 @@ p {
 .icon-skills li:first-child {
   grid-area: emma;
 }
+
 /* End Skills */
 
 /* Start Work Experience */
@@ -444,6 +446,7 @@ p {
 .carta-img:first-child {
   width: 100%;
 }
+
 /* End Work Experince */
 
 /* Start Contact */
@@ -521,6 +524,7 @@ textarea {
   transform: translateY(2px);
   transition: 0.1s;
 }
+
 /* End Contact */
 
 /*Start Footer*/
@@ -532,9 +536,11 @@ textarea {
   text-align: center;
   background: var(--color-bottom);
 }
-.info-footer h3{
+
+.info-footer h3 {
   color: var(--color-body)
 }
+
 .info-footer p {
   margin: 10px;
   color: var(--color-body);
@@ -571,7 +577,16 @@ textarea {
 
 /*  Boton de WhatsApp */
 .Whats {
-  color: red;
-  /* height: 100px; */
-  /* width: 100px; */
+  /* background-color: transparent; */
+  position: fixed;
+  right: 30px;
+  bottom: 40px;
+  font-size: 60px;
+  z-index: 1000;
+}
+.Whats i:hover {
+  color: var(--color-bottom);
+  transform: translateY(-3px);
+  transition-duration: 0.5s;
+
 }
