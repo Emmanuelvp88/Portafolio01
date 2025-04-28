@@ -82,6 +82,8 @@
     align-items: center;
   }
 
+  fother {}
+
   .buttonBars {
     display: block;
     position: relative;
@@ -102,6 +104,10 @@
   .container-footer b {
     font-size: 13px;
   }
+
+  .registrado {
+    display: none;
+  }
 }
 
 
@@ -109,21 +115,17 @@
 /* Start responsive desing  500px */
 @media screen and (max-width: 500px) {
 
-  /* Start NAV */
-  .icon-nav {
-    display: none;
-  }
-
+  /* Start NAV  */
   .buttonBars {
     left: 5 px;
   }
 
+  /* Start Hero */
   .download {
     display: block;
     margin: 30px auto;
   }
 
-  /* Start Hero */
   #hero {
     height: 80vh;
   }
@@ -204,15 +206,17 @@
   }
 
   .ul-icon-footer {
-    margin: 0 0;
+    margin: 12px 0;
   }
 
   .registrado {
+    display: block;
     justify-self: center;
     font-size: 13px;
     padding: 0 0;
   }
-  .Whats{
+
+  .whats {
     font-size: 40px;
   }
 }
