@@ -588,13 +588,16 @@ textarea {
   z-index: 1000;
   transition: color 0.7s;
 }
-.whats i:hover {
-  color: white;
-  transform: translateY(-3px);
-  transition-duration: 0.3s;
-  
-}
 .en-bottom{
   color: var(--color-nav);
   transition: color 0.6s;
+}
+/* #icono.en-bottom:hover{
+  color: white;
+} */
+.whats i:hover {
+  color: rgb(34, 255, 45);
+  transform: translateY(-3px);
+  transition-duration: 0.3s;
+  
 }
